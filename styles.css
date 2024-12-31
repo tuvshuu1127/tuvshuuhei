@@ -1,0 +1,90 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2e3b4e;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    padding: 50px;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #ffcc00;
+    font-family: 'Georgia', serif;
+}
+
+p {
+    font-size: 1.2em;
+    color: #e0e0e0;
+}
+
+.countdown {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#timer {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 1em;
+    color: #e0e0e0;
+}
+
+footer p {
+    font-style: italic;
+}
+
+#heartbeat {
+    margin-top: 50px;
+    font-size: 1.5em;
+    color: red;
+    animation: heartbeat 1.5s ease-in-out infinite;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
